@@ -1,1 +1,0 @@
-This is folder-2. Commit contains a small change for folder 2.
