@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTech Academy | Premium Online Courses</title>
+    <meta name="description" content="Upgrade your skills with industry-ready online courses at EduTech Academy.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-graduation-cap"></i> EduTech<span>Academy</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="btn btn-outline">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="animate-up delay-1">Upgrade Your Skills with <span class="text-gradient">Industry-Ready</span> Online Courses</h1>
+                <p class="animate-up delay-2">Master the latest technologies with expert-led courses designed to help you land your dream job in tech.</p>
+                <div class="hero-btns animate-up delay-3">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <a href="#signup" class="btn btn-secondary">Start Learning <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-in">
+                <img src="assets/hero_illustration.png" alt="Student learning online">
+            </div>
+        </div>
+    </header>
+
+    <!-- Statistics Section -->
+    <section class="stats" id="stats">
+        <div class="container stats-container">
+            <div class="stat-box">
+                <h3 class="counter" data-target="10000">0</h3><span>+</span>
+                <p>Students</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="250">0</h3><span>+</span>
+                <p>Courses</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="150">0</h3><span>+</span>
+                <p>Mentors</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="95">0</h3><span>%</span>
+                <p>Success Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses Section -->
+    <section id="courses" class="courses section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Courses</h2>
+                <p>Hand-picked courses to kickstart your career.</p>
+            </div>
+            <div class="course-grid">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="assets/course_webdev.png" alt="Web Development Bootcamp">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fa-solid fa-star"></i> 4.9</span>
+                        </div>
+                        <h3>Full-Stack Web Development Bootcamp</h3>
+                        <p class="instructor">By John Doe</p>
+                        <div class="course-footer">
+                            <span class="price">$199</span>
+                            <a href="#" class="btn btn-sm btn-outline">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="assets/course_datascience.png" alt="Data Science Masterclass">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 16 Weeks</span>
+                            <span><i class="fa-solid fa-star"></i> 4.8</span>
+                        </div>
+                        <h3>Data Science & AI Masterclass</h3>
+                        <p class="instructor">By Jane Smith</p>
+                        <div class="course-footer">
+                            <span class="price">$249</span>
+                            <a href="#" class="btn btn-sm btn-outline">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-img">
+                        <img src="assets/course_uiux.png" alt="UI/UX Design">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 8 Weeks</span>
+                            <span><i class="fa-solid fa-star"></i> 4.9</span>
+                        </div>
+                        <h3>UI/UX Design for Beginners</h3>
+                        <p class="instructor">By Emily Davis</p>
+                        <div class="course-footer">
+                            <span class="price">$149</span>
+                            <a href="#" class="btn btn-sm btn-outline">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="features" class="features section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+                <p>We provide the best learning experience to help you succeed.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <h3>Expert Mentors</h3>
+                    <p>Learn from industry professionals with years of real-world experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-infinity"></i>
+                    </div>
+                    <h3>Lifetime Access</h3>
+                    <p>Get unlimited access to course materials and updates forever.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>Certificate of Completion</h3>
+                    <p>Earn a recognized certificate to showcase your new skills to employers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3>Job-Oriented Learning</h3>
+                    <p>Our curriculum is designed around the skills top employers demand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Student Testimonials</h2>
+                <p>Don't just take our word for it. See what our students say.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review">"The Web Development bootcamp was exactly what I needed. The mentors were incredibly helpful, and I landed a job as a Junior Developer within a month of graduating!"</p>
+                    <div class="student-info">
+                        <div class="avatar bg-gradient-1">AS</div>
+                        <div>
+                            <h4>Alex Smith</h4>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review">"I've taken many online courses, but EduTech Academy is on another level. The UI/UX course was structured perfectly and the projects were very practical."</p>
+                    <div class="student-info">
+                        <div class="avatar bg-gradient-2">MJ</div>
+                        <div>
+                            <h4>Maria Johnson</h4>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review">"The Data Science Masterclass simplified complex topics. The hands-on projects helped me build a solid portfolio that impressed my interviewers."</p>
+                    <div class="student-info">
+                        <div class="avatar bg-gradient-3">DP</div>
+                        <div>
+                            <h4>David Patel</h4>
+                            <p>Data Analyst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter section-padding">
+        <div class="container newsletter-container">
+            <div class="newsletter-content">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Subscribe to our newsletter to get the latest course updates and exclusive discounts.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-graduation-cap"></i> EduTech<span>Academy</span>
+                </a>
+                <p>Empowering the next generation of tech leaders through accessible, high-quality online education.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/iamAditya-Pandey" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/iamAditya-Pandey" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> hello@edutechacademy.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Education Lane, Tech City</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EduTech Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
